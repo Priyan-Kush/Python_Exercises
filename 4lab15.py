@@ -48,3 +48,4 @@ def delayStop():
 stopAfterSecondButton = ttk.Button(progressBarLabelFrame, text="Stop After Second",command=delayStop)
 stopAfterSecondButton.grid(column=0, row=3, sticky=W)
 root.mainloop()
+
