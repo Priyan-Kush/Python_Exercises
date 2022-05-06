@@ -2,6 +2,7 @@ import sqlite3
 conn = sqlite3.connect('Lab4Ques1.db')
 cursor = conn.cursor()
 print("Connected to database")
+cursor.execute("DROP TABLE IF EXISTS Recipe")
 command1 ="""CREATE TABLE Recipe(
 id int primary key,
 name varchar(400),
